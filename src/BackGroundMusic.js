@@ -2,7 +2,7 @@ import React, { useState } from "react"
 import {Howl} from "howler"
 import "./BackGroundMusic.css"
 
-var music = new Howl({src: "./websiteMusic.mp3",autoplay: true, volume: 0.5})
+var music = new Howl({src: "./lofi.mp3",autoplay: true, volume: 0.03, loop:true})
 
 function BackGroundMusic() {
   const [musicPlaying, setMusicPLaying] = useState(true)

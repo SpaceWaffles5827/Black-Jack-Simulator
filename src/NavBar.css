@@ -28,3 +28,10 @@ a:-webkit-any-link {
 .Text h1{
     font-size: 2rem;
 }
+.MuteUnMute{
+    position: relative;
+}
+.NavBar .Volume{
+    position:absolute;
+    right: 1rem;
+}

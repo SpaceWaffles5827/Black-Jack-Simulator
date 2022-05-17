@@ -21,7 +21,7 @@ function NavBar() {
                     <h1>BlackJack</h1>
                 </a>
             </div>
-            <div className="Text">
+            <div className="Volume">
                 <BackGroundMusic></BackGroundMusic>
             </div>
         </div>

@@ -1,10 +1,11 @@
 import "./HomeContent.css"
 
-function HomePage() {
+function HomeContent() {
     return (
-      <div className="HomePage">
+      <div className="HomeContent">
         <div className="Intro">
           <h1>Hey! I am Jack.</h1>
+          <h1>A front end web developer.</h1>
         </div>
         <div className="Projects">
           <h2>&#60;Projects&#62;</h2>
@@ -26,4 +27,4 @@ function HomePage() {
     );
   }
   
-  export default HomePage;
+  export default HomeContent;

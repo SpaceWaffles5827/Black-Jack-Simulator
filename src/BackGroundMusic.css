@@ -1,6 +1,11 @@
-button{
-    color: red
+.BackGroundMusic{
+    height: 2rem;
+    width: 2rem;
 }
-img{
-    background-color: red;
+.BackGroundMusic img{
+    height: 2rem;
+    width: 2rem;
+}
+.BackGroundMusic:hover{
+    cursor:pointer;
 }
