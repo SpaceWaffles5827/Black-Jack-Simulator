@@ -1,7 +1,6 @@
 import Card from "./Card";
 import "./Hand.css"
 
-
 function Hand({hand}) {
 
 function getHandSum(){
@@ -11,7 +10,6 @@ function getHandSum(){
   ))}
   return sum
 }
-
 
     return (
       <div className="Hand">

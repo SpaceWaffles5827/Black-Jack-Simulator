@@ -1,21 +1,39 @@
-import React from "react"
+import React, { useState } from "react"
 import {Howl} from "howler"
+import "./BackGroundMusic.css"
 
-var music = new Howl({src: "./websiteMusic.mp3"})
-
+var music = new Howl({src: "./websiteMusic.mp3",autoplay: true, volume: 0.5})
 
 function BackGroundMusic() {
+  const [musicPlaying, setMusicPLaying] = useState(true)
 
-    function dahSound(){
-        // music.play()
+  function isMusicOn(){
+    if(musicPlaying){
+      music.play()
     }
+    else{
+      music.pause()
+    }
+  }
+  
+  function whatImageToDisplay(){
+    if(!musicPlaying){
+      return (<img onClick={()=>setMusicPLaying(!musicPlaying)} src={"./mute.png"} width={100}></img>)
+    }
+    if(musicPlaying){
+      return (<img onClick={()=>setMusicPLaying(!musicPlaying)} src={"./unMute.png"} width={100}></img>)
+    }
+  }
 
     return (
       <div className="BackGroundMusic">
-          {dahSound()}
+          {whatImageToDisplay()}
+          {isMusicOn()}
       </div>
     )
   }
   
   export default BackGroundMusic;
+  
+  // <button onClick={()=>setMusicPLaying(!musicPlaying)}>pause/play</button>
   

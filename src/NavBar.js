@@ -1,8 +1,8 @@
 import { useState, useEffect } from "react"
+import BackGroundMusic from "./BackGroundMusic";
 import "./NavBar.css"
 
 function NavBar() {
-
   return (
     <div className="NavBar">
         <div className="AllText"> 
@@ -20,6 +20,9 @@ function NavBar() {
                 <a href="./blackjack">
                     <h1>BlackJack</h1>
                 </a>
+            </div>
+            <div className="Text">
+                <BackGroundMusic></BackGroundMusic>
             </div>
         </div>
     </div>

@@ -17,10 +17,14 @@
     margin: 0;
 }
 .NavBar .AllText .Text{
+
     padding: 0 13px;
 }
 a:-webkit-any-link {
     color: black;
     cursor: pointer;
     text-decoration: none;
+}
+.Text h1{
+    font-size: 2rem;
 }

@@ -9,7 +9,6 @@ var canHit = false
 var canStand = false
 var handOver = false
 
-
 function BlackJack() {
   const NUMBER_OF_DECKS_IN_SHOE = 6
   const [shoe, setShoe] = useState([])
@@ -183,10 +182,8 @@ function BlackJack() {
     }
   }
 
-
   return (
     <div className="BlackJack">
-      <h1>Black Jack</h1>
       <Table shoe={shoe} dealersHand={dealersHand} playersHnad={playersHnad}></Table>
       <button onClick={dealGame}>Deal Game</button>
       <button onClick={stand} disabled={didPlayerBust() || !canStand}>Stand</button>
