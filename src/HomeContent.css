@@ -1,0 +1,23 @@
+.Intro{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.Projects{
+    position: relative;
+    display: flex;
+    justify-content: left;
+}
+.Projects {
+    display: flex;
+    flex-direction:column;
+}
+.Projects {
+    display: flex;
+    flex-direction:column;
+}
+.Projects h2{
+    color: white;
+    font-size: 20px;
+}

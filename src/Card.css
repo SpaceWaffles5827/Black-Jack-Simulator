@@ -1,0 +1,7 @@
+.Deck .Card{
+    height: 1px;
+    padding: 0;
+}
+.Hand .Card{
+    padding: 0;
+}

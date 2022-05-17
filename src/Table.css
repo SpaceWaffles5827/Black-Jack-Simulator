@@ -1,0 +1,15 @@
+.Table{
+    position:relative;
+    /* outline-style: solid;
+    outline-color: red; */
+    height: 500px;
+}
+body{
+    background-color:#2f4f4f;
+}
+.Table .shoe .Deck{
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin-right: 20px;
+}

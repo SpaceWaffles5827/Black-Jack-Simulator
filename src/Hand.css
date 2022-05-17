@@ -1,0 +1,8 @@
+h1{
+   color: bisque;
+}
+
+.Hand{
+    display: flex;
+    flex-direction:row;
+ }

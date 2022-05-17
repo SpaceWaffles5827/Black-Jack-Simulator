@@ -1,0 +1,26 @@
+.NavBar .AllText{
+    position: relative;
+    display: flex;
+    position: 50px;
+    align-items: center;
+    justify-content: center;
+}
+.NavBar{
+    position: relative;
+    margin: 0;
+    height: 50px;
+    width: auto;
+}
+.NavBar h1{
+    position: relative;
+    color: white;
+    margin: 0;
+}
+.NavBar .AllText .Text{
+    padding: 0 13px;
+}
+a:-webkit-any-link {
+    color: black;
+    cursor: pointer;
+    text-decoration: none;
+}
