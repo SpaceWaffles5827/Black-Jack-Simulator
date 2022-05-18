@@ -17,9 +17,20 @@
     display: flex;
     justify-content: left;
     flex-direction:column;
-
 }
 .Projects h2{
     color: white;
     font-size: 20px;
+}
+.Row2{
+    position: relative;
+    display: flex;
+    flex-direction:row;
+    justify-content: space-between;
+}
+.Things{
+    position:relative;
+    display: flex;
+    align-items:center;
+    justify-content:center;
 }

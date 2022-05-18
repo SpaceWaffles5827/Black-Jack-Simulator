@@ -6,6 +6,11 @@
     height: 2rem;
     width: 2rem;
 }
-.BackGroundMusic:hover{
+.BackGroundMusic:hover img{
     cursor:pointer;
+    transition: 0.25s;
+    height: 2.1rem;
+    width: 2.1rem;
 }
+
+

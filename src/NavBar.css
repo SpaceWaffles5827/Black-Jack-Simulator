@@ -17,7 +17,6 @@
     margin: 0;
 }
 .NavBar .AllText .Text{
-
     padding: 0 13px;
 }
 a:-webkit-any-link {
@@ -34,4 +33,9 @@ a:-webkit-any-link {
 .NavBar .Volume{
     position:absolute;
     right: 1rem;
+}
+.NavBar h1:hover{
+    transition: 0.25s;
+    color: purple;
+    font-size: 2.1rem;
 }
