@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/JackHartwig-Portfolio/static/css/main.49112786.css",
+    "main.js": "/JackHartwig-Portfolio/static/js/main.31c2055b.js",
+    "index.html": "/JackHartwig-Portfolio/index.html",
+    "main.49112786.css.map": "/JackHartwig-Portfolio/static/css/main.49112786.css.map",
+    "main.31c2055b.js.map": "/JackHartwig-Portfolio/static/js/main.31c2055b.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.49112786.css",
+    "static/js/main.31c2055b.js"
+  ]
+}
